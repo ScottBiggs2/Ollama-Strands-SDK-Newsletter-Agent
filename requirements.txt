@@ -1,0 +1,29 @@
+# Core Strands SDK and tools - correct package names
+strands-agents
+strands-agents-tools
+
+# Web scraping and content processing
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+feedparser>=6.0.10
+lxml>=4.9.0
+
+# Ollama Python client (installed with strands-agents[ollama])
+ollama>=0.1.0
+
+# Data processing and utilities
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# Optional: Enhanced content processing
+newspaper3k>=0.2.8  # For better article extraction
+readability>=0.3.1  # For content readability scoring
+
+# Optional: Development and testing
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional: Async support
+aiohttp>=3.8.0
+aiofiles>=23.0.0
